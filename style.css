@@ -1,0 +1,117 @@
+body{
+    background-image:url("/image/backgrond.png");
+}
+#formBody{
+   border: 2px solid red;
+   position: relative;
+   width:600px;
+   height:620px;
+   border-radius: 20px;
+   background: rgb(51, 51, 165);
+   left:350px;
+}
+   
+#formImage{
+    position: relative;
+    left:85px ;
+    top:260px;
+}
+#notification{
+    font-size: 16px;
+    width:100px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    top:260px;
+    lefT:250px;
+    color: rgb(68, 40, 192);
+    font-family: cursive;
+    background:orange;
+}
+#currentScore{
+     position: relative;
+     border: 1px solid red;
+     text-align: center;
+     font-size: 40px;;
+     width: 40px;
+     height:40px ;
+     color: black;
+     background:rgb(0, 255, 255);
+     left:200px;
+     top:215px;
+}
+#bestScore{
+     position: relative;
+     border: 1px solid red;
+     text-align: center;
+     font-size: 40px;;
+     width: 40px;
+     height:40px ;
+     color: black;
+     background:rgb(0, 255, 255);
+     left:358px;  
+     top:71px;
+}
+#firstWord{
+   position: relative;
+   left:170px;      
+   top:250px;
+   color: white;
+}
+#secondWord{
+    position: relative;
+    left: 335px;
+    top:106px;
+    color: white;
+    
+}
+#head{
+    position: absolute;
+    border:1px solid red;
+    width: 598px;
+    height: 40px;
+    left:360px;
+    background:rgb(0, 255, 255);
+    border-radius: 18px;
+    top:-6px;
+}
+#logoGame{
+    position: absolute;
+    width: 150px;
+    left:580px;
+    top:10px;
+}
+#instruction{
+   position: absolute;
+   top:25px;
+   font-family: cursive;
+   font-size: 25px;
+   font-weight: bold;
+   left:580px;
+}
+#starLeft{
+    position: absolute;
+    top:55px;
+    width: 30px;
+    left:550px;        }
+#starRight{
+    position: absolute;
+    top:55px;
+    width: 30px;
+    left:200px;  
+    top:55px;
+    width: 30px;
+    left:730px;  
+}
+#text{
+    position: absolute;
+    top:70px;
+    font-family: cursive;
+    left:400px;
+    color: white;
+
+}
+span{
+    font-size: 30px;
+}

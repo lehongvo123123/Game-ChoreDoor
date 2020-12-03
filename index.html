@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    
+
+    <div id="formBody">
+     <div id="formImage">   
+     <!-- Firstly , set the windows image -->
+     <img class="box" style="margin-left: 15px;";" src="/image/closed_door.svg" alt="">
+     <img class="box" style="margin-left: 15px;"src="/image/closed_door.svg" alt="">
+     <img class="box" style="margin-left: 15px;"src="/image/closed_door.svg" alt=""> <br>
+     </div>
+     <!--Button: show Mobe when player play game-->
+    <button id="notification" onclick="reStart()">Good LUCK</button>
+    <h3 id="firstWord">Current streak</h3>
+    <!--Button: show current score of player-->
+     <p id="currentScore">0</p>
+    <!--Button: show top 1 score of then player-->
+    <h3 id="secondWord">Best streak</h3>
+     <p id="bestScore">0</p> 
+    </div>
+    <p id="head"></p>
+     <p id="instruction">Instructions</p>
+     <p id="text"> <span>1.</span> Hiding behind one of there doors is the ChoreBot <br>
+        <span>2.</span> Your mission is to open all of the doors without running the ChoreBot <br>
+        <span>3.</span> If you manage to void theChoreBot until the very last door ,you win! <br>
+        <span>4</span> See if you can score a winning streak!
+    </p>
+    <!---Set-position-logo-->
+    <img id="logoGame" src="/image/logo.svg" alt="">
+    <img id="starLeft"  src="/image/star.svg" alt="">
+    <img id="starRight" src="/image/star.svg" alt="">
+    
+     <script src="/script.js"></script>
+</body>
+</html>
